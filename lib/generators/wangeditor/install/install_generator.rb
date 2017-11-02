@@ -5,7 +5,7 @@ module Wangeditor
     source_root File.expand_path("../../../../../", __FILE__)
 
     def copy_javascripts
-      copy_file 'node_modules/wangeditor/release/wangEditor.js', JAVASCRIPTS_FILE
+      copy_file JAVASCRIPTS_FILE, JAVASCRIPTS_FILE
     end
 
   end

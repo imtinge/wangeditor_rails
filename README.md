@@ -14,7 +14,7 @@ gem 'wangeditor_rails'
 
 2. Run install generator
 ```
-rails generate wangeditor_rails:install
+rails generate wangeditor:install
 ```
 
 3. Add below line to your application.js
@@ -25,7 +25,7 @@ rails generate wangeditor_rails:install
 ## Usage:
 ```
 <%= form_for @post do |f| %>
-  <%= f.text_field :title %>
+  <%= f.text_field :body %>
   <%= f.wangeditor :body %>
   <%= f.submit %>
 <% end %>
